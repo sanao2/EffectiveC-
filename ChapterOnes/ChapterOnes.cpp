@@ -280,12 +280,12 @@ int* const PointerConstType = nullptr;  // 포인터 상수
 const int* const PointerConstandConstVaue = nullptr; // 상수 포인터 > 값도, 가리키는 포인터도 절대 변경 사항이 없기 때문에 컴파일러가 한번 컴파일 한 이후로는 절대 하지 않는다. 성능 차이가 대단하다.
 
 class P {
-  private:
+private:
 	//std::string name() const;
 	// 객체 상태를 변경하지 않겠다.
 	// 멤버 함수 const 객체에서는 호출이 가능.
 	std::string name;
-  public:
+public:
 	P(const string& n) : name(n) {}
 
 	static const int sum(int a, int b) { return a + b; }
