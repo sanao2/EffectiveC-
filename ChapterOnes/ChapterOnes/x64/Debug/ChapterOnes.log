@@ -1,0 +1,27 @@
+﻿  ChapterOnes.cpp
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(183,15): warning C4566: 유니버설 문자 이름 '\u2010'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,17): warning C4244: '인수': 'const T'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,17): warning C4244:         with
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,17): warning C4244:         [
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,17): warning C4244:             T=int
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,17): warning C4244:         ]
+      D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,17):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(896,4):
+          컴파일되는 함수 템플릿 인스턴스화 'T Game::CallWidthMin<int>(const T &,const T &)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=int
+          ]
+  
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,14): warning C4244: '인수': 'const T'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,14): warning C4244:         with
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,14): warning C4244:         [
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,14): warning C4244:             T=int
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,14): warning C4244:         ]
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,13): warning C4244: 'return': 'float'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,13): warning C4244:         with
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,13): warning C4244:         [
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,13): warning C4244:             T=int
+D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\ChapterOnes.cpp(290,13): warning C4244:         ]
+  ChapterOnes.vcxproj -> D:\게임 코딩 공부\이펙티브\챕터1\ChapterOnes\x64\Debug\ChapterOnes.exe
